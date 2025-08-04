@@ -3,7 +3,7 @@ import subprocess
 
 app = Flask(__name__)
 
-@app.route('/api/sat', methods=['POST'])
+@app.route('/api/marina', methods=['POST'])
 def solve():
     data = request.get_json()
     prop = data.get('prop')
